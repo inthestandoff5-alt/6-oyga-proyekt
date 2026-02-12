@@ -1,0 +1,55 @@
+
+.two-section{
+    margin-top: 150px;
+}
+
+.title2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.card1{
+    width: 178.39999389648438px;
+    height: 201px;
+    opacity: 1;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 20px;
+    border: 1px solid #262626;
+    background: #1A1A1A;
+}
+
+.c1-img{
+    width: 139px;
+    height: 140px;
+}
+
+.after{
+    @include flexbox;
+}
+
+.card1-h4{
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.after-img{
+    cursor: pointer;
+}

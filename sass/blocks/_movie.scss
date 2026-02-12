@@ -1,0 +1,437 @@
+.main-bg {
+  background-image: url("./.././../images/main-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  margin-top: 100px;
+}
+
+.main-text-box {
+
+  max-width:600px;  
+  padding-top: 270px;
+  margin: 0px auto;
+  display: block;
+}
+
+.main-title {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: aliceblue;
+}
+
+.main-text {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color:#f0e8e8;
+
+}
+
+.red-btn {
+  background-color: #e50000;
+  border: none;
+  padding: 5px 95px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  gap: 10px;
+  color: white;
+  margin: 0px auto;
+}
+
+.red-btn:hover {
+  background-color: #e03f3f;
+  padding: 7px 98px;
+}
+
+.plus-btn {
+  background-color: #0f0f0f;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 4px;
+}
+.plus-btn:hover {
+  background-color: #353434;
+  padding: 6px 6px;
+}
+
+.like-btn {
+  background-color: #0f0f0f;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+.like-btn:hover {
+   background-color: #353434;
+  padding: 6px 6px;
+}
+
+.qongiroqcha-btn {
+  background-color: #0f0f0f;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+.qongiroqcha-btn:hover {
+   background-color: #353434;
+  padding: 6px 6px;
+}
+
+.main-btns {
+  gap: 6px;
+  padding-top: 10px;
+  margin: 0px auto;
+  display: block;
+  text-align: center;
+}
+
+.liner {
+  width: 100%;
+
+}
+
+@media only screen and (max-width: 375px) {
+  .main-text {
+    display: none;
+  }
+}
+
+.movies-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  overflow-x: scroll;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+.movies--hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  overflow-x: scroll;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+  background-color: #262626;
+  padding: 12px 15px;
+  border-radius: 15px;
+}
+
+.movies-pct {
+  width: 176px;
+  padding-bottom: 4px;
+  height: 187px;
+}
+
+.movies-mini {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movies-top {
+font-weight: 600;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0%;
+color: #fff;
+background-color:#E50000;
+width: 60px;
+border-radius: 5px;
+height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.movies-top:hover {
+  background-color: #e03f3f;
+  color: #b9b4b4;
+}
+
+.movies-title {
+  font-weight: 600;
+  color: #fff;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.movies-mini-pct {
+  width: 24px;
+  height: 24px;
+}
+
+.movies-one-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  overflow-x: scroll;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+.movies-one {
+  width: 232px;
+  display: flex;
+  flex-direction: column;
+  background-color: #262626;
+  padding: 12px 15px;
+  border-radius: 15px;
+}
+
+.movies-one-pct {
+  width: 192px;
+  height: 232px;
+  border-radius: 10px;
+}
+
+.movie-one-mini {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movies-ocloc-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #999999;
+  background-color: #222121;
+  border: 1px #999999 solid;
+  border-radius: 15px;
+  padding: 3px 2px;
+}
+
+.movies-eye-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #999999;
+  background-color: #222121;
+  border: 1px #999999 solid;
+  border-radius: 15px;
+  padding: 3px 2px;
+}
+
+.movies--one--hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  overflow-x: scroll;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+.movies--one {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #262626;
+  padding: 12px 12px;
+  border-radius: 15px;
+}
+
+.movies--one--pct {
+  width: 192px;
+  height: 230px;
+}
+
+.movies--one--title {
+  background-color: #222121;
+  border: 1px #999999 solid;
+  border-radius: 10px;
+  padding: 2px 4px;
+  color: #999999;
+}
+
+.movies--one--title:hover {
+ background-color: #999999;
+ color: #222121;
+ padding: 2x 4px;
+}
+
+.movies-big-hero {
+  list-style-type: none;
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.movies-big {
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+  background-color: #262626;
+  padding: 10px 14px;
+  border-radius: 10px;
+}
+
+.movies-big-pct {
+  width: 253px;
+  height: 324px;
+  border-radius: 10px;
+}
+
+.movies-big-mini {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+
+.movies-big-title {
+  color: #999999;
+  background-color: #222121;
+  border: 1px #999999 solid;
+  border-radius: 15px;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  padding: 2px 4px;
+}
+
+.moviees-big-score {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #999999;
+}
+
+.moviees-big-score img {
+  width: 74px;
+  height: 11px;
+}
+
+.moviees-big-score h4 {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 11px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+@media only screen and (min-width:1300px) {
+  .movies-hero {
+    overflow-x: hidden;
+  }
+  .movies--hero {
+    overflow-x: hidden;
+  }
+  .movies-big-hero {
+    overflow-x: hidden;
+  }
+
+  .movies-one-hero {
+    overflow-x: hidden;
+  }
+  .movies--one--hero {
+    overflow-x: hidden;
+  }
+  
+}
+@media only screen and (max-width:1100px) {
+    .movies-hero {
+    gap:20px;
+  }
+  .movies--hero {
+    gap:20px;
+  }
+  .movies-big-hero {
+     gap: 20px;
+  }
+
+  .movies-one-hero {
+   gap: 20px;
+  }
+  .movies--one--hero {
+    gap: 20px;
+  }
+}
+
+
+
+
+.bot-hero {
+    margin-top: 90px;
+    background-image: url(".././../images/bot-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 245px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.bot-texts-hero {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.bot-title {
+color: white;
+font-weight: 700;
+font-style: Bold;
+font-size: 28px;
+line-height: 150%;
+letter-spacing: 0%;
+}
+
+.bot-text {
+    color: #999999;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0%;
+}
+
+.bot-btn {
+    padding: 10px 32px;
+    background-color: #E50000;
+    color: white;
+font-weight: 600;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+border: none;
+border-radius: 7px;
+margin-left: 280px;
+}
+
+.bot-btn:hover {
+     background-color: #c94b4b;
+     color: #e4cfcf;
+     padding: 12px 35px;
+}

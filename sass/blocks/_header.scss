@@ -1,0 +1,61 @@
+.header-intro{
+    @include flexbox;
+    margin-top: 40px;
+}
+.hamburg-btn{
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    background-image: url("../images/hamburg-btn.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1A1A1A;
+    padding: 18px 15px;
+    border: 3px solid #262626;
+    cursor: pointer;
+}
+
+body {
+  background: #111;
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  display: none;
+  gap: 8px;
+  background-color: #0F0F0F;
+  padding: 12px;
+  border-radius: 14px;
+  border: 4px solid #1F1F1F;
+  width: fit-content;
+}
+
+.header-images{
+  display: flex;
+  display: none;
+  align-items: center;
+}
+
+.header-images img{
+  cursor: pointer;
+}
+
+.item {
+  position: relative;
+  padding: 10px 18px;
+  color: #bbb;
+  cursor: pointer;
+  border-radius: 10px; 
+}
+
+.item:hover {
+  background: #2a2a2a;
+  color: #fff;
+  transform: translateY(1px);
+}
+
+.item:active {
+  background: #000;
+  color: #fff;
+}

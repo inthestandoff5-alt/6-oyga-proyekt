@@ -1,0 +1,163 @@
+.support-one-sec{
+    margin-top: 100px;
+}
+
+.one-mini-wrapper{
+    max-width: 533px;
+}
+
+.mini-kino-wrapper{
+    border-radius: 6px;
+     border: 6px solid #262626;
+}
+
+.mini-kino-wrapper img{
+    width: 100%;
+}
+
+.one-big-wapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+form{
+    padding: 24px;
+    background-color: #0F0F0F;
+    border: 1px solid #262626;
+    border-radius: 10px;
+}
+
+.mesta{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+select{
+    padding: 16px;
+    background-color: #141414;
+    border: 1px solid #262626;
+    color: white;
+    width: 73px;
+    border-radius: 6px;
+}
+
+.first{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+input{
+    padding: 16px;
+    width: 100%;
+    height: 53px;
+    border-radius: 6px;
+    background-color: #141414;
+    border: 1px solid #262626;
+    color: white;
+}
+
+.number-inp{
+    width: 100%;
+    color: white;
+}
+
+textarea{
+    padding: 16px;
+    background-color: #141414;
+    border: 1px solid #262626;
+    width: 100%;
+    height: 109px;
+    border-radius: 6px;
+    color: white;
+}
+
+.check-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.check-box{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    margin: 0;
+}
+
+
+.text2{
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.send-btn{
+    width: 100%;
+    background-color: #E50000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: black;
+        border: 1px solid white;
+    }
+
+    &:active{
+        background-color: white;
+        border: none;
+        color: black;
+    }
+}
+
+.send-p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 768px) {
+    .names-wrapper{
+       display: flex;
+       align-items: center;
+       gap: 20px;
+    }
+
+    .email-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .btn-check-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .send-btn{
+        width: 139px;
+    }
+
+    label{
+       width: 350px;
+    }
+}
+
+
+@media only screen and (min-width: 1100px){
+    .one-big-wapper{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .format{
+        padding: 40px;
+    }
+}

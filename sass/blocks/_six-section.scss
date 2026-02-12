@@ -1,0 +1,43 @@
+.start-wrapper{
+    margin-top: 80px;
+    text-align: center;
+    padding: 50px 30px;
+    background-image: url("../images/last-back.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #262626;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.title5{
+    margin: 0;
+    font-weight: 700;
+   font-style: Bold;
+   font-size: 24px;
+   line-height: 150%;
+   letter-spacing: 0%;
+   color: white;
+}
+
+
+.four-btnn{
+    margin-top: 20px;
+    padding: 14px 20px;
+    background-color: #E50000;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+
+    &:hover{
+        background-color: white;
+        color: #E50000;
+    }
+
+    &:active{
+        background-color: black;
+        color: white;
+    }
+}

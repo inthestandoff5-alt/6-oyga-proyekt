@@ -1,0 +1,81 @@
+.subscrip-section{
+    margin-top: 150px;
+}
+
+thead{
+    background-color: #000;
+}
+
+
+      table {
+        width: 1300px;
+        border-collapse: collapse;
+        background: #111;
+      }
+      th,
+      td {
+        padding: 18px 15px;
+        text-align: left;
+        border-bottom: 1px solid #222;
+        border-right: 1px solid #222;
+        vertical-align: top;
+        font-size: 14px;
+        color: white;
+      }
+
+      td{
+        color: #999999;
+      }
+
+      th {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      th:first-child {
+        width: 16%;
+      }
+      td:last-child,
+      th:last-child {
+        border-right: none;
+      }
+      .price {
+        font-size: 18px;
+        font-weight: bold;
+        color: #999999;
+      }
+      .badge {
+        background: #e50914;
+        font-size: 12px;
+        padding: 3px 6px;
+        border-radius: 4px;
+        margin-left: 6px;
+      }
+      
+      .feature-title {
+        color: #aaa;
+        font-weight: 500;
+      }
+      .yes {
+        color: #00c853;
+      }
+      .no {
+        color: #ff5252;
+      }
+
+      /* Elite column highlight */
+      .elite {
+        background: #1a1a1a;
+      }
+
+      @media only screen and (min-width: 375px) {
+        table{
+            display: none;
+        }
+      }
+
+      @media only screen and (min-width: 768px){
+        table{
+            display: block;
+            margin-top: 50px;
+        }
+      }
