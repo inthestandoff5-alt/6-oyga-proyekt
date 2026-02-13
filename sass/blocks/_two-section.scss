@@ -29,6 +29,12 @@
     padding: 20px;
     border: 1px solid #262626;
     background: #1A1A1A;
+
+
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.2s linear;
+    }
 }
 
 .c1-img{
