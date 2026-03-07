@@ -92,7 +92,7 @@ body {
     gap: 20px;
   }
   #navbar.active {
-    top: 20px; /* pastga tushadi */
+    top: 80px; /* pastga tushadi */
   }
 }
 .hero-section {
